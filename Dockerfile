@@ -17,3 +17,5 @@ RUN curl -L -\# \
     entrykit --symlink
 
 RUN curl https://bootstrap.pypa.io/get-pip.py | python
+
+RUN pip install uwsgi
